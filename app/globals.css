@@ -116,3 +116,13 @@ html {
   background-size: 200% 200%;
   animation: gradientMove 3s ease infinite;
 }
+
+@keyframes sparkle {
+  0% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0); }
+}
+
+.animate-sparkle {
+  animation: sparkle 1.5s infinite;
+}
